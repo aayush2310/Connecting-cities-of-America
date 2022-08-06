@@ -17,7 +17,7 @@ let path = []; // and array of cities start to finish representing path
 
 function preload() {
     // JSON of 1000 largest USA cities
-    let url = 'https://raw.githubusercontent.com/typio/Dijkstra/master/cities.json'
+    let url = 'https://raw.githubusercontent.com/aayush2310/Dijkstra/master/cities.json'
     citiesJSON = loadJSON(url);
 }
 
